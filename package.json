@@ -1,0 +1,29 @@
+{
+  "name": "hutao-termux-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para Termux com menu anime, pareamento por código e 120 comandos.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "termux",
+    "bot",
+    "anime"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "latest",
+    "qrcode-terminal": "latest",
+    "readline-sync": "latest",
+    "axios": "latest",
+    "moment-timezone": "latest",
+    "chalk": "^4.1.2"
+  }
+}

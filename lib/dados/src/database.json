@@ -1,0 +1,29 @@
+{
+    "premium": [],
+    "donos": [],
+    "bloqueados": [],
+    "manutencao": {
+        "status": false
+    },
+    "autostatus": {
+        "status": false
+    },
+    "backups": [],
+    "stats": {
+        "comandos": 2,
+        "reinicios": 0,
+        "backups": 0,
+        "totalComandos": 2
+    },
+    "antilink": {},
+    "configuracoes": {
+        "antilink": false,
+        "menuItem": "🐴",
+        "tipoMenuMidia": "imagem",
+        "caminhoMenuMidia": "/data/data/com.termux/files/home/hutao-termux-bot/lib/asents/menu.jpg"
+    },
+    "grupos_banidos": [],
+    "executados": [],
+    "usuarios_mutados": {},
+    "advertencias": {}
+}
