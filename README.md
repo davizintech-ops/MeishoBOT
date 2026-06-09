@@ -31,6 +31,7 @@ Personalização| Prefixo, dono, nome e mensagens configuráveis.
 ```bash
 pkg update -y && pkg upgrade -y
 pkg install nodejs git ffmpeg imagemagick -y
+git clone https://github.com/davizintech-ops/MeishoBOT/
 ```
 
 **agora vamos entrar na pasta**
