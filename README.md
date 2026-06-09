@@ -1,6 +1,8 @@
 # MeishoBOT
 Um bot de WhatsApp editavel 
 
+<img src="assets/menu.jpg" width="700">
+
 # MeishoBOT para Termux
 
 **Este projeto é um bot de WhatsApp em Node.js para Termux, com menu moderno, conexão por código de pareamento, sistema modular e diversos comandos organizados por categorias. O projeto foi desenvolvido para ser leve, rápido e fácil de editar diretamente pelo celular.**
