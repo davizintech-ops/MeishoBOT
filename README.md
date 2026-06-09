@@ -3,14 +3,14 @@ Um bot de WhatsApp editavel
 
 # MeishoBOT para Termux
 
-Este projeto é um bot de WhatsApp em Node.js para Termux, com menu moderno, conexão por código de pareamento, sistema modular e diversos comandos organizados por categorias. O projeto foi desenvolvido para ser leve, rápido e fácil de editar diretamente pelo celular.
+**Este projeto é um bot de WhatsApp em Node.js para Termux, com menu moderno, conexão por código de pareamento, sistema modular e diversos comandos organizados por categorias. O projeto foi desenvolvido para ser leve, rápido e fácil de editar diretamente pelo celular.**
 
 «Utilize este bot apenas com uma conta de WhatsApp própria ou com autorização do titular. Não utilize automação para spam, golpes, invasões ou qualquer atividade abusiva.»
 
----
+# ---
 
-Recursos principais
-
+# Recursos principais
+```bash
 Recurso| Descrição
 Plataforma| WhatsApp utilizando Baileys em Node.js.
 Ambiente| Compatível com Termux no Android.
@@ -19,47 +19,66 @@ Menu| Menu moderno com imagem personalizada e legenda organizada.
 Comandos| Mais de 120 comandos divididos por categorias.
 Estrutura| Projeto modular e simples de editar.
 Personalização| Prefixo, dono, nome e mensagens configuráveis.
-
+```
 ---
 
-Instalação no Termux
+# Instalação no Termux
 
-Caso o projeto esteja compactado em ".zip", extraia-o antes de iniciar.
+**Caso o projeto esteja compactado em ".zip", extraia-o antes de iniciar.**
 
+**dependências usando pkg**
+
+```bash
 pkg update -y && pkg upgrade -y
 pkg install nodejs git ffmpeg imagemagick -y
+```
 
+**agora vamos entrar na pasta**
+```bash
 cd meishoBOT
+```
 
+**instala usando npm**
+```bash
 npm install
+```
+**ou**
+```bash
+chmod +x install-termux.sh
+./install-termux.sh
+```
 
+**agora inicia o bot!**
+```bash
 npm start
+```
 
-Na primeira execução será solicitado seu número do WhatsApp.
+**Na primeira execução será solicitado seu número do WhatsApp.**
 
-Exemplo:
-
+**Exemplo:**
+```bash
 5511999999999
+```
+**Após informar o número, será exibido um código de pareamento.**
 
-Após informar o número, será exibido um código de pareamento.
-
-No WhatsApp acesse:
-
+**No WhatsApp acesse:**
+```bash
 Dispositivos conectados
 → Conectar dispositivo
 → Conectar com número de telefone
+```
 
 Digite o código mostrado no Termux.
 
 ---
 
-Configuração do proprietário
+### Configuração do proprietário
 
-Edite o arquivo:
-
+**Edite o arquivo:**
+```bash
 config.js
-
-Configure os seguintes campos:
+```
+### Configure os seguintes campos:
 ```bash
 ownerName: "Seu Nome",
 ownerNumber: "ID",
@@ -75,13 +94,13 @@ botName: "meishoBOT"
 
 # Como utilizar
 
-Após conectar o bot, envie:
+**Após conectar o bot, envie:**
 ```bash
 .menu
 ```
-Para visualizar o menu principal.
+**Para visualizar o menu principal.**
 
-Também existem comandos como:
+**Também existem comandos como:**
 
 ```bash
 .ping
