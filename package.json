@@ -1,5 +1,5 @@
 {
-  "name": "hutao-termux-bot",
+  "name": "Meisho-bot",
   "version": "1.0.0",
   "description": "Bot de WhatsApp para Termux com menu anime, pareamento por código e 120 comandos.",
   "main": "index.js",
